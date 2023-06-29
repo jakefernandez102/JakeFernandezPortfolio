@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Metadatos -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jake Fernandez">
+        <meta name="description" content="Portfolio of web development by Jake Fernandez">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Reack, bootstrap">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- titulo -->
+        <title>JakeFernandez | Portfolio</title>
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="built/img/Logo.png">
+        <!-- boostrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="built/css/scss/app.css">
+
+    </head>
+
+    <body>
+        <!-- barra de navegacion -->
+        <nav class="navbar navbar-expand-md navbar-light p-1  navegacion container-fluid">
+            <div class="container-fluid nav__container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <a class="navbar-brand nav__logo" href="index.html">
+                        <img class="imag" src="built/img/Logo.png" width="80" alt="Logo pagina JFB">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item text-nav">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item text-nav">
+                            <a class="nav-link" href="#sobre-mi">About Me</a>
+                        </li>
+                        <li class="nav-item text-nav">
+                            <a class="nav-link" href="#proyectos-recientes">Projects</a>
+                        </li>
+                        <li class="nav-item text-nav">
+                            <a class="nav-link" href="#contactos">Contact</a>
+                        </li>
+                        <li class="nav-item text-nav">
+                            <a class="nav-link" href="Jake_FernandezCV.pdf" target="_blank"
+                                rel="noopener noreferrer">Resume</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="container-fluid hero align-items-stretch">
+
+            <div class=" hero-principal  d-flex flex-column justify-content-center align-items-center">
+                <div class="container row d-flex align-items-center justify-content-center">
+                    <div class="container-circle ">
+
+                    </div>
+                    <div class="imagen-portada">
+                        <picture class="">
+                            <source srcset="built/img/FotosJake/3.webp" type="image/avif">
+                            <source srcset="built/img/FotosJake/3.avif" type="image/webp">
+                            <img class="img" loading="lazy" src="built/img/FotosJake/3.jpg" alt="Imagen Jake">
+                        </picture>
+                    </div>
+                </div>
+                <h1 class="t-relative hide">Hello, I am Jake Fernandez</h1>
+                <h2 class="t-relative hide">Welcome to my portfolio!</h2>
+            </div>
+
+            <div class="hero-inferior">
+                <img class="hero-inferior-img img-fluid" src="built/img/hero-inferior.svg"
+                    alt="Monitor, laptop, y logos de HTML, CSS, JavaScript, React">
+            </div>
+        </section>
+
+        <!-- About me section -->
+        <section id="sobre-mi" class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Meet Jake Fernandez</h2>
+                <p>
+                    I'm a passionate of developing human experiences in web and stay current with new technologies that allow us to connect efficiently. I never stop learning!
+                </p>
+                <p> 
+                    Please feel at home and expore all the projects I have executed since the beginning of my career.
+                </p>
+            </div>
+        </section>
+
+        <!-- seccion experiencia -->
+        <section id="experiencia" class="experiencia seccion-clara">
+            <div class="container text-center">
+                <div class="row">
+                    <!-- Desarrollo web -->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-laptop"></i>
+                        <p class="experiencia-titulo">Web Developer</p>
+                        <p>I'm a web developer with knowledge in HTML, CSS (SASS), JavaScript, plus frameworks
+                            like Booststrap, React, React Native, Laravel, NodeJs and some other things that involve
+                            them.
+                        </p>
+                        <div class="badges-contenedor">
+                            <span class="badge rounded-pill text-bg-info">HTML</span>
+                            <span class="badge rounded-pill text-bg-info">CSS</span>
+                            <span class="badge rounded-pill text-bg-info">Sass</span>
+                            <span class="badge rounded-pill text-bg-info">Bootstrap</span>
+                            <span class="badge rounded-pill text-bg-info">JavaScript</span>
+                            <span class="badge rounded-pill text-bg-info">React-js</span>
+                            <span class="badge rounded-pill text-bg-info">React Native</span>
+                            <span class="badge rounded-pill text-bg-info">SQL</span>
+                            <span class="badge rounded-pill text-bg-info">Angular</span>
+                        </div>
+                    </div>
+                    <!-- Articulos -->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-award-fill"></i>
+                        <p class="experiencia-titulo">Soft Skills</p>
+                        <p>I am passionate about what I do, I like to be in constant improvement of skills
+                            and knowledge of the latest in the market.I also like to share knowledge with other
+                            professionals.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge rounded-pill text-bg-info">Team Player</span>
+                            <span class="badge rounded-pill text-bg-info">Adaptability</span>
+                            <span class="badge rounded-pill text-bg-info">Fast Lerner</span>
+                            <span class="badge rounded-pill text-bg-info">Hard Worker</span>
+                            <span class="badge rounded-pill text-bg-info">Good working environment</span>
+                        </div>
+                    </div>
+
+                    <!-- Estudiante -->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi bi-person"></i>
+                        <p class="experiencia-titulo">Student</p>
+                        <p>Due to the constant and accelerated change of technologies in the market, I try to keep up to
+                            date with what's new, learning technologies for development is really exciting.</p>
+                        <div class="badges-contenedor">
+                            <span class="badge rounded-pill text-bg-info">C++</span>
+                            <span class="badge rounded-pill text-bg-info">C#</span>
+                            <span class="badge rounded-pill text-bg-info">Python</span>
+                            <span class="badge rounded-pill text-bg-info">API - APIs REST</span>
+                            <span class="badge rounded-pill text-bg-info">Nest</span>
+                            <span class="badge rounded-pill text-bg-info">Azure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Proyectos -->
+        <section id="proyectos-recientes" class="proyectos-recientes seccions-clara d-flex flex-column">
+            <h2 class="seccion-titulo texto-negro">My top Projects</h2>
+            <p>These are my top projects, feel free to check them out!</p>
+            <small style="color:rgb(93, 93, 8);">Some projects simulate to be connected with a DB via JSON API hosted on render, it could take some time to load the data.</small>
+
+            <!-- galeria de proyectos -->
+            <div class="container text-center proyecto-contenedor"">
+                <div class=" row">
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/ApointmentManagerbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Appointments Manager</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/AppointmentsGenerator.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://apointmentgeneratorjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/MiniCRM.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>MIni user CRM Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CRMindexedDB.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://minicrmjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/CotizacionPropinas.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Tip Quoter</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CotizacionDeServicio" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://cotizaciondeserviciojakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/GuitarLA-React-Remix.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>GuitarLA-Remix-Strapi</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/GuitarLA-React-Remix-Strapi" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://guitar-la-react-remix-strapi.vercel.app" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/RecipesAPIbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Recipes API</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/RecipesSearcher.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://recipessearcherjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/SpendsManagerbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Spend Manager Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/SpendsManager.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://spendsmanagersimulatorjakefernandezjs.netlify.app/"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+            <!-- boton -->
+            <a href="moreprojects.html" rel="noopener noreferer">
+                <button type="button" class="btn btn-info btn__moreProjects">See more projects
+                    <i class="bi bi-arrow-bar-right"></i>
+                </button>
+            </a>
+        </section>
+
+
+
+        <!-- Contacto -->
+        <section id="contactos" class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center d-flex justify-content-evenly rectangulo">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            Let's Talk
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Contact me to start your project and I will help you make your visions a reality.
+                        </div>
+                        <div class="col-12 col-md-4 ">
+                            <input type="checkbox" id="btn-modal">
+                            <label for="btn-modal" class="lbl-modal">
+                                <i class="bi bi-envelope-at"></i>
+                            </label>
+                            </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal -->
+        <section class="section-modal noVisible">
+            <div class="modal" id="modal">
+                <div class="container">
+                    <div class="contenido">
+                        <h2 class="bg-info">Hello!!</h2>
+                        <label class="btn-closeModal">X</label>
+                        <form action="https://formsubmit.co/1321a9a2a3f06caf9535c6a906dc1e3b" method="POST"
+                            class="form">
+                            <fieldset class="legend">
+                                <legend>Contact Me</legend>
+                                <label for="name"><span>*</span> Full Name:</label>
+                                <input required type="text" id="name" name="name" placeholder="Your Name">
+
+                                <label for="email"><span>*</span> Email:</label>
+                                <input required type="email" id="email" name="email" placeholder="Your Email">
+
+                                <label for="tel"><span>*</span> Cell Phone:</label>
+                                <input required type="number" id="tel" name="tel" placeholder="Your Cell Phone">
+
+                                <label for="message "><span>*</span> Message:</label>
+                                <textarea required id="message" name="message" placeholder="Your Message"></textarea>
+                                <input type="submit" class="btnEnviar" name="btnmodal" id="btnmodal" value="Send">
+                                <input type="hidden" name="_next" value="https://portfoliojakefernandez.netlify.app/">
+                                <input type="hidden" name="_captcha" value="false">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end modal -->
+        <!-- toast -->
+
+        <div class="toast-container position-fixed top-0 end-0 p-3">
+            <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header bg-success text-white">
+                    <strong class="me-auto text-white">Email Sent</strong>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+                <div class="toast-body"></div>
+            </div>
+        </div>
+
+        <!-- end toast -->
+        <!-- footer -->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <img class="footer-logo " src="built/img/Logo.png" alt="Logo JFB">
+            <p class="footer-text text-center">
+                I learn everyday. <br><span><strong> Let's work together</strong></span>
+            </p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                <a href="https://www.linkedin.com/in/jake-fernandez-brizuela-73572222a/" target="_blank"
+                    rel="noopener noreferer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/jakefernandez102" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                </a>
+
+
+            </div>
+            <div class="derechos-de-autor">Created by Jake Fernandez &#169;</div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="built/js/app.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Metadatos -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jake Fernandez">
+        <meta name="description" content="Portfolio of web development by Jake Fernandez">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Reack, bootstrap">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- titulo -->
+        <title>JakeFernandez | Portfolio</title>
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="built/img/Logo.png">
+        <!-- boostrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="built/css/scss/app.css">
+
+    </head>
+
+    <body>
+        <!-- barra de navegacion -->
+        <nav class="navbar navbar-expand-md navbar-light p-1  navegacion">
+
+            <div class="container-fluid nav__container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="imag" src="built/img/Logo.png" width="80" alt="Logo pagina JFB">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos-recientes">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonio">Testimony</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactos">Contact</a>
+                        </li>
+                        <li class="nav-item text-nav">
+                            <a class="nav-link" href="Jake_FernandezCV.pdf" target="_blank"
+                                rel="noopener noreferrer">Resume</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="container-fluid hero align-items-stretch">
+
+            <div class=" hero-principal  d-flex flex-column justify-content-center align-items-center">
+                <div class="container row d-flex align-items-center justify-content-center">
+                    <div class="container-circle ">
+
+                    </div>
+                    <picture>
+                        <source srcset="built/img/FotosJake/5.webp" type="image/avif">
+                        <source srcset="built/img/FotosJake/5.avif" type="image/webp">
+                        <img class="img" loading="lazy" src="built/img/FotosJake/5.jpg" alt="Imagen Jake">
+                    </picture>
+                </div>
+                <h1 class="t-relative">Hello, it's nice to meet you!</h1>
+            </div>
+
+            <div class="hero-inferior">
+                <img class="hero-inferior-img img-fluid" src="built/img/hero-inferior.svg"
+                    alt="Monitor, laptop, y logos de HTML, CSS, JavaScript, React">
+            </div>
+        </section>
+
+        <!-- About me section -->
+        <section id="sobre-mi" class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Take a look into my projects</h2>
+
+                <h2 class="t-relative">Here are all my projects since I start until the last I've learned.</h2>
+                <p class="slogan">My slogan: <span>go as Strong as Designed</span></p>
+            </div>
+            <img class="imag-lg" src="built/img/Logo.png" width="80" alt="Logo pagina JFB">
+
+        </section>
+
+
+
+        <!-- Seccion Proyectos -->
+        <section id="proyectos-recientes" class="proyectos-recientes seccions-clara d-flex flex-column">
+            <h2 class="seccion-titulo texto-negro">My Projects</h2>
+            <h3>These are my best projects, feel free to check them out!</h3>
+
+            <!-- galeria de proyectos -->
+            <div class="container text-center proyecto-contenedor"">
+            <!-- <div class=" row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Projects created using HTML5 - CSS3 - JS AJAX - PHP - MySQL </h4> -->
+                <!-- proyecto 1 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/festivalRockEDMbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Festival Rock EDM</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/FestivalMusic.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://festivalmusicjakefernandez.netlify.app" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 2 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto2.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 3 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto3.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Web design created using <strong>only</strong> HTML5 - CSS3 -
+                    FlexBox -
+                    Grid -
+                    SASS </h4>
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/festivalRockEDMbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Festival Rock EDM</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/FestivalMusic.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://festivalmusicjakefernandez.netlify.app" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/FurnitureStorebg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Furniture Store</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/FurnitureStore.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://furniturestorejakefernandez.netlify.app" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/TechPRObg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>TechPRO Headphone</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/TechProHeadphones.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://techprojakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/Architecturebg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Architecture Web Site.</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/ArchitectureDesign.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://archdesignjakefernandez.netlify.app" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/NucleusApp.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Nucleus App</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/Nucleus-eWallet" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://nucleusappjakefernandezdev.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/Cafeteria.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Cafeteria Web Site</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CafeteriaSASS" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://cafeteriasassjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/DeliveryApp.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>DeliveryApp</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/DeliveryApp" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://deliveryappjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/Podcast.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>PodCast Web Site</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/PodCast" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://podcastappjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/airbnbclon.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Air b&b clon</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/AirbNb-Clon" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://airbnbclonjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/RealState.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Real State Web Site</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/RealState" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://realstatejakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/CarolinaSpa.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Carolina Spa Web Site</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CarolinaSpaSite" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://carolinaspajakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/Meeti-bg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Meeti Clon</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/meeti" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://meetijakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/EscuelaCocina-bg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Escuela Cocina Web Site</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/EscuelaDeCocina" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://escuelacocinajakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/GuitarLA.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Guitar LA Design</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/GUITARLA" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://guitarlajakefernandez.netlify.app/" _blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Web Design created using <strong>only</strong> HTML5 - CSS3 -
+                    Bootstrap -
+                    SASS
+                </h4> -->
+                <!-- proyecto 1 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto1.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 2 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto2.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 3 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto3.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Projects created using the functionality of HTML5 - CSS3 -
+                    Vanilla Javascript
+                </h4>
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/CarShoppingbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Shopping cart Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/ShoppingCar.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://cartshopjakefernandezjs.netlify.app" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/EmailSenderbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Email Sender Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/EmailSenderEmulator.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://emailsendersimulatorjakefernandezjs.netlify.app" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/filterPage.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Filter Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/FilterPage.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://searcherjakefernandezjs.netlify.app" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/CarInsurancebg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Car Insurance Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CarInsuranceBudgetGenerator.git"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://carinsurancesimulatorjakefernandezjs.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/LocalStorageTweetsbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Tweets/ToDo List clon Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/LocalStorageTweets-TodoList.git"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://localstoragesimulatorjakefernandezjs.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/SpendsManagerbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Spends Manager Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/SpendsManager.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://spendsmanagersimulatorjakefernandezjs.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/ApointmentManagerbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Appointments Manager Emuator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/AppointmentsGenerator.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://apointmentgeneratorjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/MiniCRM.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Mini users CRM Emilator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CRMindexedDB.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://minicrmjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/ClimateSearcher.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Climate Searcher</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/ClimateAPI.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://climateapisjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/RecipesAPIbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>API Recipes Emulator</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/RecipesSearcher.git" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://recipessearcherjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/PixaBayPicturesAPIbg.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>PixaBay API</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/PixaBayPicturesSearcher.git"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://picturessearcherjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/criptoMoneda.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Top 10 Cryto</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CriptomonedasConsult" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://cryptocurrencyjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/CotizacionPropinas.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Tip Quoter</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CotizacionDeServicio" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://cotizaciondeserviciojakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/CRMJsonServer.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Mini CRM using JSONServer </p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CRMJsonServer-" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://crmjsonserverjakefernandez.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Projects created using React <small> ~ Hooks Context Redux MERN ~
+                    </small>
+                </h4>
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/CotizadorPrestamoReact.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Simple Loan Quoter</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/cotizador-prestamo-react" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://effulgent-zuccutto-2367f2.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/ReactVetCRUD.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Vet's Customer CRUD - React</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/REACT-VeterinariaClientes-CRUD" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://loquacious-alfajores-5186d4.netlify.app" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/ReactBudgetExpenses.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Expenses planner</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/React-Expenses" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://lovely-cendol-abea59.netlify.app" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/ReactCRM-ReactRouterDOM.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>CRM simulation</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/CRM-REACT-ReactRouterDOM/tree/main" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://famous-paletas-5cc79a.netlify.app" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/GuitarLA-React-Remix.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>GuitarLA-Remix-Strapi</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/GuitarLA-React-Remix-Strapi" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://guitar-la-react-remix-strapi.vercel.app" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+ <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Projects created using Angular
+                </h4>
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/heoresApp.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>CRUD - Heroes card -</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/Angular-HeroesApp" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://angular-heroesapp-jakefernandez.netlify.app/index" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/CountriesApp.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Countries Searcher</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/ApiCountries-Angular" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://countriessearchjakefernandez.netlify.app" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/PipesUse.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Pipes Use - Angular -</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jakefernandez102/Angular---PipesGuide" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://amazing-gnome-958258.netlify.app" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Projects created using NodeJs <small>~ Web inc MVC - REST APIs
+                        ~</small>
+                </h4> -->
+                <!-- proyecto 1 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto1.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 2 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto2.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 3 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto3.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Projects created using Larvel - PHP 8 - MVC
+                </h4> -->
+                <!-- proyecto 1 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto1.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 2 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto2.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 3 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto3.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Projects created Fullstack Next.js - Apollo - MongoDB - GraphQL
+
+                </h4> -->
+                <!-- proyecto 1 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto1.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 2 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto2.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 3 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto3.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="row container-fluid">
+                <h4 class="seccion-titulo mt-3 mb-3">Projects created using React Native
+                </h4> -->
+                <!-- proyecto 1 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto1.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 2 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto2.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- proyecto 3 -->
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="built/img/proyecto3.png" alt="Imagen proyecto 1">
+                        <div class="overlay">
+                            <p>Coming soon...</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-browser-chrome"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            </div>
+
+
+
+            <!-- boton -->
+            <a href="index.html" rel="noopener noreferer">
+                <button type="button" class="btn btn-info">Go back
+                    <i class="bi bi-arrow-bar-right"></i>
+                </button>
+            </a>
+        </section>
+
+
+
+        <!-- Contacto -->
+        <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center d-flex justify-content-evenly rectangulo">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            Let's Talk
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Contact me to start your project and I will help you make your visions a reality.
+                        </div>
+                        <div class="col-12 col-md-4 ">
+
+
+                            <input type="checkbox" id="btn-modal">
+                            <label for="btn-modal" class="lbl-modal">
+                                <i class="bi bi-envelope-at"></i>
+                            </label>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal -->
+        <section class="section-modal noVisible">
+            <div class="modal" id="modal">
+                <div class="container">
+                    <div class="contenido">
+                        <h2 class="bg-info">Hello!!</h2>
+                        <label class="btn-closeModal">X</label>
+                        <form action="https://formsubmit.co/1321a9a2a3f06caf9535c6a906dc1e3b" method="POST"
+                            class="form">
+                            <fieldset class="legend">
+                                <legend>Contact Me</legend>
+                                <label for="name"><span>*</span> Full Name:</label>
+                                <input required type="text" id="name" name="name" placeholder="Your Name">
+
+                                <label for="email"><span>*</span> Email:</label>
+                                <input required type="email" id="email" name="email" placeholder="Your Email">
+
+                                <label for="tel"><span>*</span> Cell Phone:</label>
+                                <input required type="number" id="tel" name="tel" placeholder="Your Cell Phone">
+
+                                <label for="message "><span>*</span> Message:</label>
+                                <textarea required id="message" name="message" placeholder="Your Message"></textarea>
+                                <input type="submit" class="btnEnviar" name="btnmodal" id="btnmodal" value="Send">
+                                <input type="hidden" name="_next" value="https://portfoliojakefernandez.netlify.app/">
+                                <input type="hidden" name="_captcha" value="false">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end modal -->
+
+        <!-- toast -->
+
+        <div class="toast-container position-fixed top-0 end-0 p-3">
+            <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header bg-success text-white">
+                    <strong class="me-auto text-white">Email Sent</strong>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+                <div class="toast-body"></div>
+            </div>
+        </div>
+
+        <!-- end toast -->
+
+        <!-- footer -->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <img class="footer-logo " src="built/img/Logo.png" alt="Logo JFB">
+            <p class="footer-text text-center">
+                I learn everyday. <br><span><strong> Let's work together</strong></span>
+            </p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                <a href="#" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                </a>
+
+
+            </div>
+            <div class="derechos-de-autor">Created by Jake Fernandez &#169;</div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="built/js/app.js"></script>
+    </body>
+
+</html>
